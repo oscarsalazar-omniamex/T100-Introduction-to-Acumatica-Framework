@@ -8,28 +8,28 @@
 <asp:Content ID="cont2" ContentPlaceHolderID="phF" Runat="Server">
 	<px:PXFormView ID="form" runat="server" DataSourceID="ds" Style="z-index: 100" Width="100%" DataMember="Customers" TabIndex="1500">
 		<Template>
-			<px:PXLayoutRule runat="server" StartRow="True" ControlSize="XM" LabelsWidth="S"/>
-		    <px:PXMaskEdit ID="edCustomerCD" runat="server" AlreadyLocalized="False" DataField="CustomerCD" DefaultLocale="">
-            </px:PXMaskEdit>
-            <px:PXTextEdit ID="edCompanyName" runat="server" AlreadyLocalized="False" DataField="CompanyName" DefaultLocale="">
+			<px:PXLayoutRule runat="server" StartRow="True" ControlSize="XM" LabelsWidth="S" StartColumn="True"/>
+		    <px:PXSelector ID="edCustomerCD" runat="server" DataField="CustomerCD">
+            </px:PXSelector>
+            <px:PXTextEdit ID="edCompanyName" runat="server" AlreadyLocalized="False" DataField="CompanyName">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edContactName" runat="server" AlreadyLocalized="False" DataField="ContactName" DefaultLocale="">
+            <px:PXTextEdit ID="edContactName" runat="server" AlreadyLocalized="False" DataField="ContactName">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edPhone" runat="server" AlreadyLocalized="False" DataField="Phone" DefaultLocale="">
+            <px:PXTextEdit ID="edPhone" runat="server" AlreadyLocalized="False" DataField="Phone">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edFax" runat="server" AlreadyLocalized="False" DataField="Fax" DefaultLocale="">
+            <px:PXTextEdit ID="edFax" runat="server" AlreadyLocalized="False" DataField="Fax">
             </px:PXTextEdit>
             <px:PXLayoutRule runat="server" ControlSize="M" LabelsWidth="S" StartColumn="True">
             </px:PXLayoutRule>
-            <px:PXTextEdit ID="edAddress" runat="server" AlreadyLocalized="False" DataField="Address" DefaultLocale="">
+            <px:PXTextEdit ID="edAddress" runat="server" AlreadyLocalized="False" DataField="Address">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edCity" runat="server" AlreadyLocalized="False" DataField="City" DefaultLocale="">
+            <px:PXTextEdit ID="edCity" runat="server" AlreadyLocalized="False" DataField="City">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edCountryCD" runat="server" AlreadyLocalized="False" DataField="CountryCD" DefaultLocale="">
+            <px:PXSelector ID="edCountryCD" runat="server" CommitChanges="True" DataField="CountryCD">
+            </px:PXSelector>
+            <px:PXTextEdit ID="edRegion" runat="server" AlreadyLocalized="False" DataField="Region">
             </px:PXTextEdit>
-            <px:PXTextEdit ID="edRegion" runat="server" AlreadyLocalized="False" DataField="Region" DefaultLocale="">
-            </px:PXTextEdit>
-            <px:PXTextEdit ID="edPostalCode" runat="server" AlreadyLocalized="False" DataField="PostalCode" DefaultLocale="">
+            <px:PXTextEdit ID="edPostalCode" runat="server" AlreadyLocalized="False" DataField="PostalCode">
             </px:PXTextEdit>
 		</Template>
 		<AutoSize Container="Window" Enabled="True" MinHeight="200" />

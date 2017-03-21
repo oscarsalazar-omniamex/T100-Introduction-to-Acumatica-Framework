@@ -32,6 +32,11 @@
 		[PXDBString(15, IsUnicode = true, IsKey = true)]
 		[PXDefault()]
 		[PXUIField(DisplayName = "Customer ID")]
+        [PXSelector(
+            typeof(Search<Customer.customerCD>)
+            ,typeof(Customer.customerCD)
+            ,typeof(Customer.companyName)
+            )]
 		public virtual string CustomerCD
 		{
 			get
@@ -165,6 +170,12 @@
 		protected string _CountryCD;
 		[PXDBString(2, IsUnicode = true)]
 		[PXUIField(DisplayName = "Country ID")]
+        [PXSelector(
+            typeof(Search<Country.countryCD>)
+            ,typeof(Country.countryCD)
+            ,typeof(Country.description)
+            ,DescriptionField = typeof(Country.description)
+            )]
 		public virtual string CountryCD
 		{
 			get
