@@ -9,5 +9,7 @@ namespace AcumaticaRB.RapidByte
 {
     public class CustomerMaint : PXGraph<CustomerMaint>
     {
+        public PXSelect<Customer> Customers;
+
     }
 }
