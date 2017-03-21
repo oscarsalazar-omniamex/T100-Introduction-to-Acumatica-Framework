@@ -85,7 +85,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RapidByte\CountryMaint.cs" />
+    <Compile Include="RapidByte\CustomerMaint.cs" />
     <Compile Include="RapidByte\DAC\Country.cs" />
+    <Compile Include="RapidByte\DAC\Customer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CustomFields.config" />
