@@ -88,6 +88,10 @@
     <Compile Include="RapidByte\CustomerMaint.cs" />
     <Compile Include="RapidByte\DAC\Country.cs" />
     <Compile Include="RapidByte\DAC\Customer.cs" />
+    <Compile Include="RapidByte\DAC\OrderLine.cs" />
+    <Compile Include="RapidByte\DAC\Product.cs" />
+    <Compile Include="RapidByte\DAC\SalesOrder.cs" />
+    <Compile Include="RapidByte\SalesOrderEntry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CustomFields.config" />
