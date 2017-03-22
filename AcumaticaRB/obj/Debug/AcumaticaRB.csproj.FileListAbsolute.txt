@@ -111,6 +111,6 @@ C:\Training\MyRapidByte\AcumaticaRB\bin\Debug\ko\System.Spatial.resources.dll
 C:\Training\MyRapidByte\AcumaticaRB\bin\Debug\ru\System.Spatial.resources.dll
 C:\Training\MyRapidByte\AcumaticaRB\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Training\MyRapidByte\AcumaticaRB\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Training\MyRapidByte\AcumaticaRB\obj\Debug\AcumaticaRB.csprojResolveAssemblyReference.cache
 C:\Training\MyRapidByte\AcumaticaRB\obj\Debug\AcumaticaRB.dll
 C:\Training\MyRapidByte\AcumaticaRB\obj\Debug\AcumaticaRB.pdb
+C:\Training\MyRapidByte\AcumaticaRB\obj\Debug\AcumaticaRB.csprojResolveAssemblyReference.cache
